@@ -17,7 +17,7 @@ Recommended steps to run the program:
 2. Import buildsa and querysa into Eclipse as Maven projects.
 3. Run `mvn clean install` in Eclipse to clean and build the projects.
 4. Run buildsa as a Java application in Eclipse with program arguments: `--preftab <k> reference output`. For example, `--preftab 2 genomeData/virusGenome.fna ../output/virusGenome.bin`
-5. Run querysa as a Java application in Eclipse with program arguments: `index queries queryMode output`. For example, `../output/virusGenome.bin ../queries/query.fna SIMPACCEL ../output/queryOutput.txt`
+5. Run querysa as a Java application in Eclipse with program arguments: `index queries queryMode output`. For example, `../output/virusGenome.bin ../queries/query.fna simpaccel ../output/queryOutput.txt`
 
 Alternatively, the executable jar file `buildsa.jar` should be able to be run via `java -jar buildsa.jar --preftab <k> reference output`.  The executable jar file `querysa.jar` should be able to be run via `java -jar querysa.jar index queries queryMode output`.  
 
