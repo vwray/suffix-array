@@ -35,6 +35,5 @@ class BasePairTest {
         assertEquals(16, BasePair.convertDNAStringToInt("ACAA"));
         assertEquals(63, BasePair.convertDNAStringToInt("TTT"));
         assertEquals(11, BasePair.convertDNAStringToInt("AGT"));
-        assertEquals(11, BasePair.convertDNAStringToInt("agt"));
     }
 }

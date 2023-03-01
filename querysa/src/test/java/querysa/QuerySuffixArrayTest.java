@@ -55,7 +55,6 @@ class QuerySuffixArrayTest {
     void testPerformNaiveBinarySearchWithPrefixTable() throws ClassNotFoundException, IOException {
         SerializeableSuffixArray serializeableSuffixArray = QuerySuffixArray
                 .readBinaryFile("src/test/resources/testOutput.bin");
-        // "C:\\Users\\valer\\cmsc701git\\suffix-array\\querysa\\src\\test\\resources\\output.bin");
         Query query = new Query();
         query.appendName("Query1");
         query.appendSequence("TA");
